@@ -12,12 +12,20 @@ package Actividad2Herencia;
 public class Main {
     
     public static void main(String[] args) {
+       
         Cliente cliente = new Cliente();
         
-        cliente.setDireccion("San juanl de bosque");
+        cliente.setDireccion("San juan del  bosque");
         cliente.setNombre("Omar");
         
         System.out.println("Mi direccion es:" + cliente.getDireccion());
         System.out.println("Mi nombre es: " + cliente.getNombre());
+        System.out.println("--------------------------------------");
+        
+        Usuario usuario = new Usuario();
+        usuario.setNombre("pepe");
+        usuario.setDireccion("Los arcos");
+        System.out.println("tu nombre es:"+ usuario.getNombre());
+        System.out.println("Tu direccion es:" +usuario.getDireccion() );
     }
 }

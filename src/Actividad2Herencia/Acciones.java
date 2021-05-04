@@ -11,7 +11,7 @@ package Actividad2Herencia;
  */
 public interface Acciones {
     public String getNombre();
-    public void  setNombre(String edad);
+    public void  setNombre(String Nombre);
     public String getDireccion();
     public void setDireccion(String Direccion);
     
